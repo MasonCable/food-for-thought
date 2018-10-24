@@ -1,0 +1,34 @@
+{
+  "name": "food-for-thought",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "lint": "standard --fix"
+  },
+  "author": "Keen <austin.kuehne@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "fs": "^0.0.1-security",
+    "js-sha512": "^0.8.0",
+    "react-scripts": "^1.1.5",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "client/node_modules",
+      "server/node_modules"
+    ]
+  },
+  "boilerplate": {
+    "name": "fullstack-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Michael Sweeney <jfmike@gmail.com> (https://github.com/overthemike)",
+    "license": "MIT"
+  },
+  "devDependencies": {},
+  "repository": "git@github.com:Keen12321/Food-For-Thought.git"
+}

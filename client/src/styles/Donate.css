@@ -1,0 +1,133 @@
+/*******************************************
+	MAKING DONATIONS
+*******************************************/
+
+.donate-container {
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 2px solid #eee;
+	border-radius: 3px;
+	width: 200px;
+}
+
+#wrongg {
+	background: rgba(255,0,29,.2);
+	display: flex;
+	padding: 1.7%;
+	border:1px solid red;
+	margin: 3%;
+}
+
+#wrongg li{
+	line-height: 30px;
+}
+
+.donate-container #butt{
+	margin-top:1%;
+}
+
+#add{
+	font-weight: bold;
+	justify-content: center;
+	font-size: 1.3em;
+	display: flex;
+	
+}
+
+input[type='checkbox']{
+	background: #eee;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.defaultContain{
+	width: 100%;
+	text-align: center;
+}
+
+/*#defaults {
+	margin: 20px 0 30px 0;
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	border-bottom:2px solid #232323;
+}*/
+
+#defaults {
+	padding:1%;
+	border-bottom: 2px solid #ccc;
+	background: rgba(255,255,255, 0.8);
+	margin: 1.5% 0 1.5% 0;
+	border-radius: 20px;
+	display: flex;
+}
+
+#defaults input{
+	width: 13%;
+	padding: 1%;
+	margin:auto;
+	outline: none;
+	border: none;
+	font-style: italic;
+	background: none;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	
+
+
+}
+
+#defaults label{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+
+#defaults button{
+	width: 25%;
+	margin: 20px auto;
+}
+
+#deffs {
+	margin-top: 2%;
+	text-align: center;
+}
+
+#deffs h1{
+	cursor: pointer;
+	text-align: center;
+	padding: 2%;
+	background: #ccc;
+	width: 30%;
+	margin: auto;
+}
+
+
+#pleaseConfirm{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 11%
+}
+
+.defaultflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 1%;
+
+}
+
+#clickMe{
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#radio{
+	cursor: pointer;
+}
+
+
+

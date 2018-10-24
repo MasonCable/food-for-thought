@@ -1,0 +1,134 @@
+.reversepickups {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.fa-phone, .fa-comment {
+	color: rgb(63,132,202);
+}
+.fa-phone:hover, .fa-comment:hover {
+	opacity: 0.6;
+}
+#scroll {
+	max-height: 700px;
+	overflow-y: hidden;
+	overflow: auto;
+	min-width: 300px;
+}
+.pickupsContainer {
+	display: flex;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+	@media only screen and (max-device-width: 600px) {
+		.pickupsContainer {
+			flex-direction: column-reverse;
+			margin-left: 5px;
+		}
+		#truck {
+			display: none;
+		}
+	}
+.modal-show{
+	display: block;
+	z-index: 100;
+}
+.lgfont {
+	font-size: 1.5em;
+}
+#segment2 {
+	background: rgba(255,255,255,0.9);
+}
+#segment {
+	align-items: flex-end;
+	border-bottom: 1px solid #ccc;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-bottom: 5px;
+	border-radius: 20px;
+	background: rgba(255,255,255,0.9);
+}
+.rtfloat > * {
+	float: right;
+}
+#leftfloat > * {
+	float: left;
+}
+#centext {
+	text-align: center;
+}
+.space {
+	display: flex;
+	justify-content: space-between;
+}
+#bluebtn {
+	background: rgb(35,123,202);
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-family: sans-serif;
+	border-radius: 5px;
+	cursor: pointer;
+}
+@keyframes modalFade {
+	from {opacity: 0}
+	to {opacity: 1}
+}
+.modal {
+	position: fixed;
+	animation-name: modalFade;
+	animation-duration: .3s;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+}
+.modal-hidden {
+	display: none;
+}
+.modal-main {
+	box-shadow: 2px 2px 1px #000;
+	padding: 10px;
+	text-align: center;
+	background: white;
+}
+.pickups {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.availablepickups {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.D_navbar {
+background: #232323;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 25px;
+}
+.D_navbar a:hover {
+	transform:scale(1.2);
+	color: #fff;
+}
+.left > a, .right > a {
+	margin: auto;
+	margin-right: 15px;
+}
+.pickups > div {
+	margin: 5px;
+}
+.cxlreason {
+	width: 50%;
+	height: 20vh;
+	display: block;
+	border: 2px solid #ccc;
+	margin: 10px auto;
+}
+.cxlreason > textarea {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	text-align: center;
+}
